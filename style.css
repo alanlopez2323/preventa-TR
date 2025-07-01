@@ -1,9 +1,6 @@
 body {
-  background: linear-gradient(to bottom, #d52b1e 0%, #ffffff 35%, #0038a8 70%);
-  font-family: 'Segoe UI', sans-serif;
-  color: #3a2b17;
-  margin: 0;
-  padding: 2rem;
+  background: linear-gradient(160deg, #fefbf5, #ede2d1);
+  color: #3e2f1c;
 }
 
 h1, h2 {
