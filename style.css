@@ -1,0 +1,29 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fefbf5;
+  color: #3e2f1c;
+  max-width: 700px;
+  margin: auto;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #20793b;
+}
+
+a {
+  color: #005792;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.bono {
+  background: #fff7cc;
+  padding: 0.5rem;
+  border-left: 4px solid #ffc107;
+  margin-top: 1rem;
+}
