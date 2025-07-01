@@ -1,11 +1,9 @@
 body {
+  background: linear-gradient(to bottom, #d52b1e 0%, #ffffff 35%, #0038a8 70%);
   font-family: 'Segoe UI', sans-serif;
-  background: #fefbf5;
-  color: #3e2f1c;
-  max-width: 700px;
-  margin: auto;
+  color: #3a2b17;
+  margin: 0;
   padding: 2rem;
-  line-height: 1.6;
 }
 
 h1, h2 {
