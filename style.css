@@ -1,61 +1,63 @@
-/* Fuente base */
+/* Tipografía y base */
 body {
   margin: 0;
   padding: 2rem;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom, #d52b1e 0%, #ffffff 35%, #0038a8 70%);
-  color: #1f1308;
+  background-color: #f5f0e6; /* tono yerba seca */
+  color: #2f1b0c; /* texto oscuro tierra */
   line-height: 1.6;
 }
 
-/* Títulos con sombra dorada */
+/* Títulos con acento cultural */
 h1, h2 {
-  color: #fefbf5;
-  text-shadow: 1px 1px 2px #81452f;
-  margin-top: 0;
+  color: #356c30; /* verde guampa */
+  border-bottom: 2px solid #81452f; /* línea tierra suave */
+  padding-bottom: 0.3rem;
 }
 
-/* Secciones con fondo "yerba" */
+/* Secciones con marco limpio */
 section {
-  background: #fefbf5;
-  border-left: 8px solid #20793b;
+  background: #ffffff;
+  border: 1px solid #dfd3c3;
+  border-left: 5px solid #356c30;
   border-radius: 6px;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  padding: 1.2rem;
+  margin-bottom: 1.8rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
-/* Enlaces destacados */
+/* Enlaces sobrios */
 a {
-  color: #0038a8;
-  font-weight: bold;
+  color: #356c30;
   text-decoration: none;
-  border-bottom: 2px solid transparent;
-  transition: border 0.2s;
+  font-weight: 600;
 }
 
 a:hover {
-  border-bottom: 2px solid #0038a8;
+  text-decoration: underline;
 }
 
-/* Bono resaltado */
+/* Aviso bono */
 .bono {
-  background: #fff2a8;
-  border-left: 6px solid #c89b3c;
+  background: #e7e1c9;
   padding: 1rem;
+  border-left: 4px solid #c89b3c;
+  margin-top: 1rem;
   font-weight: bold;
-  color: #4a3a0a;
+  color: #493e22;
 }
 
-/* Footer patriótico */
+/* Footer centrado */
 footer {
   margin-top: 3rem;
   text-align: center;
   font-size: 0.95rem;
-  color: #fefbf5;
+  color: #6c5d49;
+  border-top: 1px dashed #c4b69c;
+  padding-top: 1rem;
 }
 
-/* Responsivo */
+/* Responsive mobile */
 @media screen and (max-width: 600px) {
   body {
     padding: 1rem;
@@ -66,6 +68,6 @@ footer {
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
