@@ -1,11 +1,12 @@
-
-.header-bandera {
-  background: linear-gradient(to right, #d52b1e, #ffffff, #0038a8);
-  padding: 1rem;
-  text-align: center;
-  color: #000;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fefbf5;
+  color: #3e2f1c;
+  max-width: 700px;
+  margin: auto;
+  padding: 2rem;
+  line-height: 1.6;
 }
-
 
 h1, h2 {
   color: #20793b;
