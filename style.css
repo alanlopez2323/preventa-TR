@@ -1,63 +1,65 @@
-/* Tipografía y base */
+/* Fondo cálido y natural */
 body {
   margin: 0;
   padding: 2rem;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f5f0e6; /* tono yerba seca */
-  color: #2f1b0c; /* texto oscuro tierra */
+  background-color: #f4f0e5; /* Ñandutí claro */
+  color: #322514; /* Texto tierra intensa */
   line-height: 1.6;
 }
 
-/* Títulos con acento cultural */
+/* Títulos con personalidad cultural */
 h1, h2 {
-  color: #356c30; /* verde guampa */
-  border-bottom: 2px solid #81452f; /* línea tierra suave */
-  padding-bottom: 0.3rem;
+  color: #455e44; /* Verde guampa oscura */
+  border-bottom: 2px solid #e9c6af; /* Línea tierra */
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
 }
 
-/* Secciones con marco limpio */
+/* Secciones envolventes */
 section {
-  background: #ffffff;
-  border: 1px solid #dfd3c3;
-  border-left: 5px solid #356c30;
+  background-color: #ffffff;
+  border-left: 5px solid #b5b79c; /* Verde seco */
+  padding: 1.5rem;
+  margin-bottom: 2rem;
   border-radius: 6px;
-  padding: 1.2rem;
-  margin-bottom: 1.8rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* Enlaces sobrios */
+/* Estilo para enlaces */
 a {
-  color: #356c30;
+  color: #356c30; /* Verde confianza */
   text-decoration: none;
-  font-weight: 600;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: border 0.2s;
 }
 
 a:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid #356c30;
 }
 
-/* Aviso bono */
+/* Bloque de bono con dorado artesanal */
 .bono {
-  background: #e7e1c9;
-  padding: 1rem;
+  background: #fff5cc;
   border-left: 4px solid #c89b3c;
-  margin-top: 1rem;
-  font-weight: bold;
+  padding: 1rem;
   color: #493e22;
+  font-weight: bold;
+  margin-top: 1rem;
 }
 
-/* Footer centrado */
+/* Footer patriótico, simple */
 footer {
   margin-top: 3rem;
+  padding-top: 1rem;
   text-align: center;
   font-size: 0.95rem;
-  color: #6c5d49;
-  border-top: 1px dashed #c4b69c;
-  padding-top: 1rem;
+  color: #665c4b;
+  border-top: 1px dashed #c8bfa7;
 }
 
-/* Responsive mobile */
+/* Responsive para móviles */
 @media screen and (max-width: 600px) {
   body {
     padding: 1rem;
@@ -68,6 +70,6 @@ footer {
   }
 
   h1 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 }
