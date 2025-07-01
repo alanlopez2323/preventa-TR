@@ -10,13 +10,13 @@ body {
 
 /* Títulos con personalidad cultural */
 h1, h2 {
-  color: #455e44; /* Verde guampa oscura */
+  color: #455e44; /* Verde guampa */
   border-bottom: 2px solid #e9c6af; /* Línea tierra */
   padding-bottom: 0.4rem;
   margin-bottom: 1rem;
 }
 
-/* Secciones envolventes */
+/* Secciones con marco */
 section {
   background-color: #ffffff;
   border-left: 5px solid #b5b79c; /* Verde seco */
@@ -26,9 +26,9 @@ section {
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* Estilo para enlaces */
+/* Enlaces destacados */
 a {
-  color: #356c30; /* Verde confianza */
+  color: #356c30;
   text-decoration: none;
   font-weight: bold;
   border-bottom: 2px solid transparent;
@@ -39,7 +39,7 @@ a:hover {
   border-bottom: 2px solid #356c30;
 }
 
-/* Bloque de bono con dorado artesanal */
+/* Bono visual */
 .bono {
   background: #fff5cc;
   border-left: 4px solid #c89b3c;
@@ -49,7 +49,23 @@ a:hover {
   margin-top: 1rem;
 }
 
-/* Footer patriótico, simple */
+/* Botón estilo canal */
+.btn {
+  display: inline-block;
+  background-color: #356c30;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background-color: #2c5a28;
+}
+
+/* Footer sencillo */
 footer {
   margin-top: 3rem;
   padding-top: 1rem;
