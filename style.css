@@ -1,6 +1,6 @@
-body {
-  background: linear-gradient(160deg, #fefbf5, #ede2d1);
-  color: #3e2f1c;
+h1, h2 {
+  color: #20793b;
+  text-shadow: 1px 1px 0 #c89b3c;
 }
 
 h1, h2 {
